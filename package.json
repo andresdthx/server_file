@@ -1,0 +1,38 @@
+{
+  "name": "service_file",
+  "version": "1.0.0",
+  "description": "Arquitectura Hexagonal - Typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc",
+    "watch": "tsc -w & nodemon .",
+    "dev": "nodemon src/index.ts",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andres Canchila",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "mongodb": "^3.5.6",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/mongodb": "^3.5.8",
+    "@types/node": "^13.11.1",
+    "@types/nodemailer": "^6.4.0",
+    "nodemon": "^2.0.14",
+    "prettier": "2.0.4",
+    "ts-node": "^10.4.0",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3",
+    "typescript-tslint-plugin": "^0.5.5"
+  }
+}
