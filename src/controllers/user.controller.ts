@@ -1,6 +1,6 @@
 import { getUser, saveUser, updateUser, deleteUser } from '../core/interactors/user';
 import { Response, Request } from 'express';
-import asyncHandler from "express-async-handler"
+import asyncHandler from "express-async-handler";
 
 export const GetUser = asyncHandler(async(req: Request, res: Response) => {
   const { params } = req;

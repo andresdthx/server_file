@@ -1,2 +1,5 @@
 import mongoose from 'mongoose';
-mongoose.connect (process.env.MONGODB_URL || 'mongodb://localhost:27017/practicanode');
+
+const HOST = process.env.MONGODB_HOST || 'localhost';
+console.log(HOST)
+mongoose.connect (process.env.MONGODB_URL || `mongodb://${HOST}:27017/practicanode`);

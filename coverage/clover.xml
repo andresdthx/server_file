@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1636473449521" clover="3.2.0">
+  <project timestamp="1636473449522" name="All files">
+    <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="16" coveredmethods="16" elements="41" coveredelements="41" complexity="0" loc="25" ncloc="25" packages="3" files="6" classes="6"/>
+    <package name="src.core.interactors.user">
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12"/>
+      <file name="delete.interactor.ts" path="C:\xampp\htdocs\practica_node\service_file\src\core\interactors\user\delete.interactor.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="getUser.interactor.ts" path="C:\xampp\htdocs\practica_node\service_file\src\core\interactors\user\getUser.interactor.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="saveUser.interactor.ts" path="C:\xampp\htdocs\practica_node\service_file\src\core\interactors\user\saveUser.interactor.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="update.interactor.ts" path="C:\xampp\htdocs\practica_node\service_file\src\core\interactors\user\update.interactor.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="test.helpers">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="user.helper.ts" path="C:\xampp\htdocs\practica_node\service_file\test\helpers\user.helper.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="test.mocks">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="UserMock.ts" path="C:\xampp\htdocs\practica_node\service_file\test\mocks\UserMock.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

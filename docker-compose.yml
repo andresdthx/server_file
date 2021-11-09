@@ -1,13 +1,27 @@
-version: '3'
-services:
+version: "3.2"
+
+services: 
+  nodejs:
+    build:
+      context: .
+    image: docker-node-file
+    depends_on:
+      - mongo
+    environment:
+      - FILE_SERVICE=host.docker.internal
+      - MONGODB_HOST='192.168.128.2'
+    volumes:
+      - ./www/:/var/www/html/
+    ports:
+      - "8080:8080"
+    container_name: file-container
+    
   mongo:
     image: mongo
-    container_name: mongo
+    expose:
+      - "27017"
     ports:
-      - 27017:27017
-  mongoclient:
-    image: mongoclient/mongoclient:latest
-    container_name: mongoclient
-    hostname: mongoclient
-    ports:
-      - 3300:3000
+      - "27017:27017"
+    container_name: mongo-container
+    
+
